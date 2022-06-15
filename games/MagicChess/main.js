@@ -20,7 +20,7 @@ var spellSelected = null
 var char = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
 var nextSpell = 1
-var spells = ["Fortify", "Blink", "Metamorphisis", "Backstab"]
+var spells = []
 
 class Spell {
 	constructor(_description, _place, _type, _icon) {
