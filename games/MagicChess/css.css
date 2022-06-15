@@ -1,0 +1,22 @@
+p {
+	color: rgb(232, 157, 243);
+	cursor: pointer;
+}
+
+spell {
+	display: flex;
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.212);
+	transition: 0.1s;
+	margin: 10px;
+	width: 50%;
+}
+
+spell:hover {
+	background-color: rgba(0, 0, 0, 0.315);
+}
+
+spells {
+	display: flex;
+	width: 100%;
+}
