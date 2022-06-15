@@ -20,7 +20,7 @@ var spellSelected = null
 var char = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
 var nextSpell = 1
-var spells = []
+var spells = ["Fortify", "Blink", "Metamorphisis", "Backstab"]
 
 class Spell {
 	constructor(_description, _place, _type, _icon) {
@@ -33,17 +33,17 @@ class Spell {
 
 // Spell Definition
 var spellData = {
-	"Fortify": new Spell("Summon a Rook next to any of your pieces", "next", "R", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/1/11/ShieldsUp.png/revision/latest/scale-to-width-down/64?cb=20200502092813"),
-	"Blink": new Spell("Teleport your King to any empty space", "empty", "K", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/1/16/Blink.png/revision/latest/scale-to-width-down/64?cb=20200501001000"),
-	"Metamorphisis": new Spell("Morph any of your Pawns into a Knight", "P", "N", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/2/26/Anubis.png/revision/latest/scale-to-width-down/64?cb=20200430193912"),
-	"Backstab": new Spell("Turn any Black Pawn White", "p", "P", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/7/7a/Backstab.png/revision/latest/scale-to-width-down/64?cb=20200430194017"),
-	"Backup Request": new Spell("Summon a White Pawn on any empty space", "empty", "P", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/1/1d/ManaFusion.png/revision/latest/scale-to-width-down/64?cb=20200502131107"),
-	"Devine Intervention": new Spell("Turn ANY Pawn into a White Bishop", "pP", "B", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/8/8a/HolyGround.png/revision/latest/scale-to-width-down/64?cb=20201226222638"),
-	"Snipe": new Spell("Kill any piece infront of your rook", "rookSight", null, "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/1/1e/BowSnipe.png/revision/latest/scale-to-width-down/64?cb=20200501122509"),
-	"Combust": new Spell("Kill any Pawn", "pP", null, "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/e/e7/Combust.png/revision/latest/scale-to-width-down/64?cb=20200501130509"),
-	"Shadow Queen": new Spell("Summon a White Queen below any Black Peice", "belowEnemy", "Q", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/2/22/ShadowShift.png/revision/latest/scale-to-width-down/64?cb=20201226222747"),
-	"Cripple": new Spell("Turn any Black Knight into a Black Pawn", "n", "p", "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/c/cf/Pinch.png/revision/latest/scale-to-width-down/64?cb=20200502140202"),
-	"Guillotine": new Spell("Kill any piece next to one of your pieces", "next", null, "https://static.wikia.nocookie.net/onestepfromeden_gamepedia_en/images/6/61/Guillotine.png/revision/latest/scale-to-width-down/64?cb=20200502114718"),
+	"Fortify": new Spell("Summon a Rook next to any of your pieces", "next", "R", "Images/Fortify.webp"),
+	"Blink": new Spell("Teleport your King to any empty space", "empty", "K", "Images/Blink.webp"),
+	"Metamorphisis": new Spell("Morph any of your Pawns into a Knight", "P", "N", "Images/Metamorphisis.webp"),
+	"Backstab": new Spell("Turn any Black Pawn White", "p", "P", "Images/Backstab.webp"),
+	"Backup Request": new Spell("Summon a White Pawn on any empty space", "empty", "P", "Images/BackupRequest.webp"),
+	"Deine Intevrvention": new Spell("Turn ANY Pawn into a White Bishop", "pP", "B", "Images/DevineIntervention.webp"),
+	"Snipe": new Spell("Kill any piece infront of your rook", "rookSight", null, "Images/Snipe.webp"),
+	"Combust": new Spell("Kill any Pawn", "pP", null, "Images/Combust.webp"),
+	"Shadow Queen": new Spell("Summon a White Queen below any Black Peice", "belowEnemy", "Q", "Images/ShadowQueen.webp"),
+	"Cripple": new Spell("Turn any Black Knight into a Black Pawn", "n", "p", "Images/Cripple.webp"),
+	"Guillotine": new Spell("Kill any piece next to one of your pieces", "next", null, "Images/Guillotine.webp"),
 }
 
 
