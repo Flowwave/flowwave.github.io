@@ -1,0 +1,258 @@
+body {
+
+	display: flex;
+	align-items: stretch;
+	font-family: 'Segoe UI',
+		Tahoma,
+		Geneva,
+		Verdana,
+		sans-serif;
+	font-weight: bold;
+	background-color: rgb(30, 27, 66);
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.dark {
+	color: #63798A;
+}
+
+.side {
+	width: 15%;
+	margin: 10px;
+}
+
+.middle {
+	width: 70%;
+	margin: 10px;
+}
+
+section {
+	height: 100%;
+	padding: 1%;
+}
+
+article {
+	width: 100%;
+	/* height: 20px; */
+	border-radius: 5px;
+	background-color: rgba(240, 248, 255, 0.151);
+	border: white;
+	border-width: 2px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.article_discord {
+	background-color: #5261F8;
+	transition: 0.1s;
+	display: flex;
+	cursor: pointer;
+}
+
+.article_discord:hover {
+	background-color: #303fe2;
+	margin-bottom: 25px;
+	margin-top: -5px;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+buttoncontainer {
+	text-align: center;
+	align-items: center;
+	width: 100%;
+}
+
+a:hover {
+	background-color: rgba(255, 255, 255, 0.184);
+}
+
+a {
+	transition: all 0.1s;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.100);
+	font-size: 30px;
+	margin: 10px;
+	border-radius: 14px;
+}
+
+game p {
+	text-align: left;
+	margin: 5px;
+	width: 50%;
+}
+
+.center {
+	margin: auto;
+}
+
+.article_youtube {
+	background-color: #f24c4c;
+	transition: 0.1s;
+	display: flex;
+	cursor: pointer;
+}
+
+.article_youtube:hover {
+	background-color: #ff0026;
+	margin-bottom: 25px;
+	margin-top: -5px;
+}
+
+.nav p {
+	background-color: #b2dee2;
+	border-radius: 17px;
+	margin: 4px;
+	padding: 5px;
+	text-align: center;
+	width: auto;
+	color: #63798A;
+	font-weight: 400;
+	/* font-size: 15px; */
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.nav p:hover {
+	background-color: #8396c4;
+	color: white
+}
+
+
+h2 {
+	background-color: rgba(196, 200, 216, 0.219);
+	border-radius: 17px;
+	width: 90%;
+	padding: 20;
+	margin: auto;
+	text-align: center;
+	color: rgb(251, 249, 255);
+	font-size: 30px;
+}
+
+games {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+game {
+	width: 300px;
+	height: 300px;
+	background-color: #303fe2;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-size: 100%;
+	transition: all 0.2s;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+game:hover {
+	background-size: 120%;
+	margin: 5px;
+	padding: 5px;
+}
+
+game h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	padding: -10;
+}
+
+.rank h1 {
+	border-radius: 17px;
+	width: 80%;
+	margin: 0;
+	text-align: center;
+	align-self: center;
+	color: rgb(46, 43, 53);
+	font-size: 30px;
+}
+
+.rank div {
+	display: flex;
+}
+
+.rank {
+	background-color: rgb(212, 221, 227);
+
+	padding: 5px;
+	margin: 5px;
+	border-radius: 17px;
+	transition: 0.2s;
+}
+
+
+.rank p {
+	color: #63798A;
+}
+
+.vip {
+	background-color: rgb(182, 226, 120);
+}
+
+.mvp {
+	background-color: rgb(65, 184, 135);
+}
+
+.mfn {
+	background-color: rgb(67, 113, 241);
+}
+
+.credit {
+	text-align: center;
+	font-size: 50px;
+	width: 50%;
+	height: 70px;
+	background-color: rgb(224, 120, 99);
+	color: #e4e4e4;
+	padding: 5px;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 17px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.credit:hover {
+	background-color: rgb(255, 10, 10);
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.noteknight {
+	background-image: url("images/NoteKnight.png");
+}
+
+.noteknightNeo {
+	background-image: url("images/NoteKnightNeo.png");
+}
+
+.circleDefence {
+	background-image: url("images/CircleDefence.png");
+}
